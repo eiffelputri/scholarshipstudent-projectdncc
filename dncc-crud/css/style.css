@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color:rgb(255, 242, 219);
+}
+
+.navbar-bg{
+    background-color: rgb(255, 242, 219);
+}
+
+.container-fluid{
+    margin:auto 50px;
+    margin-top: 10px;
+}
+
+.container-fluid .navbar-brand{
+    margin-right: 5px;
+}
+
+.sign a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.sign a:hover{
+    background-color: rgb(255, 202, 104);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    letter-spacing: 0.5 px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+}
+
+.navbar-brand i{
+    color: rgb(252, 170, 48);
+}
+
+.nav-link{
+    color:rgb(58, 59, 59)!important;
+    letter-spacing: 0.2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(252, 170, 48)!important;
+}
+
+.active{
+    color: rgb(252, 170, 48)!important;
+}
+
+.medium1{
+    font-weight: 900;
+}
+
+.medium2{
+    font-weight: bold;
+}
+
+.button{
+    background-color: rgb(255, 152, 115);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: rgb(252, 170, 48);
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .img{
+        position: absolute;
+        margin-top: 40px;
+        top: 0;
+        display: block;
+        width: 500px;
+    }
+    .col1{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .img{
+        position: absolute;
+        margin-top: 40px;
+        top: 0;
+        display: block;
+        width: 500px;
+    }
+    .col1{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .img{
+        z-index: -1;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .img{
+        z-index: -1;
+        width: 500px;
+    }
+}
